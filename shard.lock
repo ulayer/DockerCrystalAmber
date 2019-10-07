@@ -1,0 +1,122 @@
+version: 1.0
+shards:
+  CrystalProxmox:
+    github: ulayer/CrystalProxmox
+    commit: 79d026f2bf579ead3974b10efaa511db8caa08fd
+
+  amber:
+    github: amberframework/amber
+    commit: 6fd7388dec53efa842f6152d4988d3a5c1e67b1f
+
+  amber_router:
+    github: amberframework/amber-router
+    version: 0.3.0
+
+  callback:
+    github: drujensen/callback
+    version: 0.7.1
+
+  citrine-i18n:
+    github: amberframework/citrine-i18n
+    commit: 59efe41b1f5dd832cb4a61996864f3e24fe8282a
+
+  cli:
+    github: drujensen/cli
+    version: 0.8.0
+
+  compiled_license:
+    github: elorest/compiled_license
+    version: 0.1.3
+
+  crylog:
+    github: Blacksmoke16/crylog
+    commit: ee97471bb247a1b415d38ec24c0e4eb771ff40cd
+
+  db:
+    github: crystal-lang/crystal-db
+    version: 0.7.0
+
+  email:
+    github: arcage/crystal-email
+    version: 0.3.3
+
+  exception_page:
+    github: crystal-loot/exception_page
+    version: 0.1.2
+
+  granite:
+    github: amberframework/granite
+    commit: 9e05dd72571bd7dd4d7942f21aa125c52526ce51
+
+  i18n:
+    github: TechMagister/i18n.cr
+    version: 0.3.1
+
+  inflector:
+    github: phoffer/inflector.cr
+    version: 0.1.8
+
+  jasper_helpers:
+    github: amberframework/jasper-helpers
+    commit: ae2777b2fd7c6ae173d4bae6841fc86959c3aed4
+
+  kilt:
+    github: jeromegn/kilt
+    version: 0.4.0
+
+  liquid:
+    github: TechMagister/liquid.cr
+    version: 0.3.1
+
+  markd:
+    github: icyleaf/markd
+    version: 0.1.2
+
+  micrate:
+    github: amberframework/micrate
+    version: 0.4.0
+
+  mysql:
+    github: crystal-lang/crystal-mysql
+    version: 0.9.0
+
+  optarg:
+    github: drujensen/optarg
+    version: 0.7.0
+
+  pg:
+    github: will/crystal-pg
+    version: 0.19.0
+
+  pool:
+    github: ysbaddaden/pool
+    version: 0.2.3
+
+  quartz_mailer:
+    github: amberframework/quartz-mailer
+    commit: 0dfebeb90c2a01dac6ab2e2036b57d210f0f4f2f
+
+  redis:
+    github: stefanwille/crystal-redis
+    version: 2.2.1
+
+  shell-table:
+    github: luckyframework/shell-table.cr
+    commit: 078a04ea58ead5203bb435a3b5fff448ddabaeea
+
+  slang:
+    github: jeromegn/slang
+    version: 1.7.1
+
+  sqlite3:
+    github: crystal-lang/crystal-sqlite3
+    version: 0.14.0
+
+  string_inflection:
+    github: mosop/string_inflection
+    version: 0.2.1
+
+  teeplate:
+    github: mosop/teeplate
+    version: 0.8.0
+

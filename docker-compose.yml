@@ -1,0 +1,25 @@
+version: '2'
+
+services:
+  app:
+    build: .
+    image: ulayer
+    command: bash -c "/app/scripts/boot.sh"
+    environment:
+      AMBER_ENV: production_on_dev
+    ports:
+      - 8080:8080
+    privileged: true
+    cap_add:
+      - NET_ADMIN
+    devices:
+      - /dev/net/tun
+    volumes:
+    - .:/app
+    - nodes:/app/node_modules
+    - shards:/app/lib
+
+volumes:
+  db:
+  nodes:
+  shards:
